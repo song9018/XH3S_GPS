@@ -1,0 +1,26 @@
+# store these data in double[128] since it will increase in future  
+# you can find code for reading this file in main.c
+# 1-8 initial state error in meter(1-6) maxErrorXY
+3 3 10 5 5 2 10 0
+# 9-16 HdopMeterStd VdopMeterStd minSpeedStart minSpeedStop directionThreshold(<=4) speedThreshold(<=5) JourneyOverDistance EleStdThreshold
+6 12 0.8 0.8 4 5 1.5 10
+# 17-24 sameDistance HdopMax maxDiff min_lost_time min_lost_journey footSpeed noStepPeriod(1-5) minSpeedStopVehicle
+0.5 10 1000 5 10 2 3 1.5
+# 25-32 wStatic[6]
+1 1 0.05 0.2 0.2 0.01 0 0
+# 33-40 maxSpeed foot running bicycle bus 2 10 15 40
+10 0 0 0 0 0 0 0
+# 41-48 maxAcceleration  4 8 10 20
+20 0 0 0 0 0 0 0
+# 49-56 speedVariances
+0.5 0 0 0 0 0 0 0
+# 57-64 directionVariance
+0.8 0 0 0 0 0 0 0
+# 65-72 ladder
+0.5 1.5 4 10 33 0 0 0
+# 73-80 maxTimeInterval, maxDistanceInterval maxAbnormal, maxTurning, meterOverHdop(IOS:0.75, SM:3) meterOverVdop(IOS:0.75, SM:3) covXY covZ 
+15 500 2 1.5 3 3 0.5 0.1
+# 81-88 search_playground
+435 10 8 80 1.22 400 550 450
+# 89-96
+60 15 37.898 10 0 0 0 0

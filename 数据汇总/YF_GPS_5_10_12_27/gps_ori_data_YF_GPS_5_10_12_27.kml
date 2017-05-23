@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name>gps_raw_data</name>
+    <Style id="msn_ylw-pushpin0">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels" />
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>My location marks</name>
+    </Folder>
+    <Placemark>
+      <name>My path</name>
+	  <styleUrl>#lineStyle</styleUrl>
+      <Style>
+        <LineStyle>
+          <color>FF0000FF</color>
+          <width>2</width>
+        </LineStyle>
+      </Style>
+      <LineString>
+	  <tessellate>1</tessellate>
+        <coordinates></coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
